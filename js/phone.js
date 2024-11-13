@@ -12,7 +12,7 @@ const displayPhones = phones =>{
     phones.forEach(phone => {
         console.log(phone);
         const phoneCard = document.createElement('div');
-        phoneCard.classList='card bg-gray-100 w-96 shadow-xl';
+        phoneCard.classList='card bg-gray-100 p-4 shadow-xl';
         phoneCard.innerHTML=`
         <figure>
                <img
