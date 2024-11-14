@@ -15,10 +15,11 @@
         <h1 class="text-6xl m-10">Welcome to my Phone Hunter!</h1>
     </header>
     <main class="container mx-auto mt-8">
-        <section class="bg-gray-100 p-4 m-4">
+        <section class="bg-gray-100 p-4 m-4 text-center">
+            <h3 class="text-3xl font-semibold  mb-4">Search Your Phone</h3>
             <input type="text" name="text" id="search-field" placeholder="search..."
                 class="input input-bordered w-full max-w-xs">
-            <button onclick="handleSearch()" class="btn btn-accent px-8">Search</button>
+            <button onclick="handleSearch()" class="btn btn-accent relative">Search</button>
         </section>
 
         <!-- search result -->
@@ -46,7 +47,7 @@
             <div  class="modal-box">
                 <h3 id="phone-name" class="font-bold text-3xl"></h3>
                 <div id="phone-details-container">
-                    
+
                 </div>
                 <div class="modal-action">
                     <form method="dialog">
@@ -59,7 +60,7 @@
 
     </main>
     <footer>
-
+          
     </footer>
 
     <script src="/js/phone.js"></script>

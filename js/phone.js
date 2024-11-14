@@ -77,7 +77,7 @@ const showPhoneDetails = (phone) =>{
     <p><span class="font-bold text-lg">Slug:</span>${phone.slug}</p>
     <p><span class="font-bold text-lg">Release Data:</span>${phone.releaseDate}</p>
     <p><span class="font-bold text-lg">Brand:</span>${phone.brand}</p>
-    <p><span class="font-bold text-lg">GPS:</span>${phone?.others?.GPS}</p>
+    <p><span class="font-bold text-lg">GPS:</span>${phone?.others?.GPS || 'No GPS available'}</p>
   
 
     `;
